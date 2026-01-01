@@ -38134,7 +38134,7 @@
 /turf/floor/plating,
 /area/eris/engineering/construction)
 "bOk" = (
-/obj/item/machinery_crate/excelsior/boombox,
+/obj/item/machinery_crate/excelsior/autolathe,
 /turf/floor/tiled/steel,
 /area/eris/crew_quarters/sleep/cryo)
 "bOl" = (
@@ -96852,15 +96852,6 @@
 	},
 /turf/floor/tiled/techmaint,
 /area/eris/maintenance/section3deck4port)
-"ePu" = (
-/obj/item/implanter/excelsior,
-/obj/item/implanter/excelsior,
-/obj/item/implanter/excelsior,
-/obj/item/implanter/excelsior,
-/obj/item/implanter/excelsior,
-/obj/item/implanter/excelsior,
-/turf/floor/tiled/steel,
-/area/eris/crew_quarters/sleep/cryo)
 "ePI" = (
 /obj/machinery/power/apc{
 	dir = 1;
@@ -97307,6 +97298,10 @@
 	},
 /turf/floor/tiled/white/golden,
 /area/eris/neotheology/churchbooth)
+"fzh" = (
+/obj/machinery/porta_turret/excelsior,
+/turf/floor/tiled/steel,
+/area/eris/crew_quarters/sleep/cryo)
 "fAs" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -97835,6 +97830,25 @@
 	},
 /turf/floor/tiled/white/brown_perforated,
 /area/eris/crew_quarters/fitness)
+"gAu" = (
+/obj/item/implanter,
+/obj/item/implanter,
+/obj/item/implanter,
+/obj/item/implanter,
+/obj/item/implanter,
+/obj/item/implanter,
+/obj/item/implanter,
+/obj/item/implanter,
+/obj/item/implanter,
+/obj/item/implanter,
+/obj/item/implanter,
+/obj/item/implanter,
+/obj/item/implanter,
+/obj/item/implanter,
+/obj/item/implanter,
+/obj/item/implanter,
+/turf/floor/tiled/steel,
+/area/eris/crew_quarters/sleep/cryo)
 "gBc" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8;
@@ -97921,10 +97935,6 @@
 	},
 /turf/floor/tiled/techmaint,
 /area/eris/maintenance/section2deck1starboard)
-"gJB" = (
-/obj/item/machinery_crate/excelsior/shield,
-/turf/floor/tiled/steel,
-/area/eris/crew_quarters/sleep/cryo)
 "gJG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -98450,6 +98460,24 @@
 /obj/item/reagent_containers/spray/cleaner,
 /turf/floor/tiled/white/brown_platform,
 /area/eris/medical/chemistry)
+"hHc" = (
+/obj/item/implant/excelsior/leader,
+/obj/item/implant/excelsior/leader,
+/obj/item/implant/excelsior/leader,
+/obj/item/implant/excelsior/leader,
+/obj/item/implant/excelsior/leader,
+/obj/item/implant/excelsior/leader,
+/obj/item/implant/excelsior/leader,
+/obj/item/implant/excelsior/leader,
+/obj/item/implant/excelsior/leader,
+/obj/item/implant/excelsior/leader,
+/obj/item/implant/excelsior/leader,
+/obj/item/implant/excelsior/leader,
+/obj/item/implant/excelsior/leader,
+/obj/item/implant/excelsior/leader,
+/obj/item/implant/excelsior/leader,
+/turf/floor/tiled/steel,
+/area/eris/crew_quarters/sleep/cryo)
 "hHz" = (
 /obj/spawner/booze,
 /turf/floor/tiled/techmaint,
@@ -98498,6 +98526,26 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/floor/grass,
 /area/eris/neotheology/chapelritualroom)
+"hKy" = (
+/obj/item/implant/excelsior,
+/obj/item/implant/excelsior,
+/obj/item/implant/excelsior,
+/obj/item/implant/excelsior,
+/obj/item/implant/excelsior,
+/obj/item/implant/excelsior,
+/obj/item/implant/excelsior,
+/obj/item/implant/excelsior,
+/obj/item/implant/excelsior,
+/obj/item/implant/excelsior,
+/obj/item/implant/excelsior,
+/obj/item/implant/excelsior,
+/obj/item/implant/excelsior,
+/obj/item/implant/excelsior,
+/obj/item/implant/excelsior,
+/obj/item/implant/excelsior,
+/obj/item/implant/excelsior,
+/turf/floor/tiled/steel,
+/area/eris/crew_quarters/sleep/cryo)
 "hLE" = (
 /obj/machinery/shield_diffuser,
 /turf/floor/hull,
@@ -98686,25 +98734,6 @@
 /obj/structure/cable/green,
 /turf/floor/plating/under,
 /area/eris/maintenance/section3deck5port)
-"hYN" = (
-/obj/item/implanter,
-/obj/item/implanter,
-/obj/item/implanter,
-/obj/item/implanter,
-/obj/item/implanter,
-/obj/item/implanter,
-/obj/item/implanter,
-/obj/item/implanter,
-/obj/item/implanter,
-/obj/item/implanter,
-/obj/item/implanter,
-/obj/item/implanter,
-/obj/item/implanter,
-/obj/item/implanter,
-/obj/item/implanter,
-/obj/item/implanter,
-/turf/floor/tiled/steel,
-/area/eris/crew_quarters/sleep/cryo)
 "iaf" = (
 /obj/structure/multiz/stairs/enter{
 	dir = 1
@@ -98930,13 +98959,6 @@
 	},
 /turf/floor/tiled/steel/cargo,
 /area/eris/hallway/main/section3)
-"ixM" = (
-/obj/machinery/computer/cryopod{
-	pixel_y = 32
-	},
-/obj/item/storage/deferred/crate/excel_conscript,
-/turf/floor/tiled/steel,
-/area/eris/crew_quarters/sleep/cryo)
 "ize" = (
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment{
@@ -98983,10 +99005,6 @@
 /obj/spawner/material/building,
 /turf/floor/tiled/steel/techfloor_grid,
 /area/eris/crew_quarters/artistoffice)
-"iBP" = (
-/obj/item/machinery_crate/excelsior,
-/turf/floor/tiled/steel,
-/area/eris/crew_quarters/sleep/cryo)
 "iCc" = (
 /obj/machinery/door/airlock/multi_tile/metal/mait{
 	name = "Disposals Maintenance";
@@ -99031,10 +99049,6 @@
 	},
 /turf/open,
 /area/eris/engineering/foyer)
-"iIb" = (
-/obj/item/storage/deferred/crate/excel_spetsnaz,
-/turf/floor/tiled/steel,
-/area/eris/crew_quarters/sleep/cryo)
 "iIc" = (
 /obj/effect/shuttle_landmark/merc/sec3east5,
 /turf/space,
@@ -99316,10 +99330,6 @@
 "jaM" = (
 /turf/wall/reinforced,
 /area/eris/neotheology/churchbooth)
-"jaS" = (
-/obj/machinery/autolathe/excelsior,
-/turf/floor/tiled/steel,
-/area/eris/crew_quarters/sleep/cryo)
 "jbk" = (
 /obj/effect/shuttle_landmark/merc/mining,
 /turf/space,
@@ -99542,10 +99552,6 @@
 /obj/machinery/door/firedoor,
 /turf/wall/low/with_glass/smart,
 /area/eris/medical/morgue)
-"jDz" = (
-/obj/item/storage/deferred/crate/excel_shock_kit,
-/turf/floor/tiled/steel,
-/area/eris/crew_quarters/sleep/cryo)
 "jDU" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/maintenance_medical{
@@ -99881,6 +99887,13 @@
 	},
 /turf/floor/reinforced,
 /area/eris/medical/chemstor)
+"khh" = (
+/obj/machinery/computer/cryopod{
+	pixel_y = 32
+	},
+/obj/item/storage/deferred/crate/excel_conscript,
+/turf/floor/tiled/steel,
+/area/eris/crew_quarters/sleep/cryo)
 "khE" = (
 /obj/structure/bed/chair/wood{
 	dir = 1
@@ -100091,6 +100104,10 @@
 	},
 /turf/wall/low/with_glass/smart,
 /area/eris/crew_quarters/artistoffice)
+"kAs" = (
+/obj/machinery/autolathe/excelsior,
+/turf/floor/tiled/steel,
+/area/eris/crew_quarters/sleep/cryo)
 "kAt" = (
 /obj/structure/disposalpipe/segment,
 /turf/floor/tiled/dark/golden,
@@ -100139,6 +100156,10 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/floor/tiled/dark/techfloor,
 /area/eris/quartermaster/hangarsupply)
+"kGK" = (
+/obj/item/machinery_crate/excelsior,
+/turf/floor/tiled/steel,
+/area/eris/crew_quarters/sleep/cryo)
 "kJk" = (
 /obj/landmark/join/start/hydro,
 /turf/floor/wood,
@@ -100298,6 +100319,10 @@
 /obj/structure/railing,
 /turf/open,
 /area/eris/engineering/atmos)
+"lgY" = (
+/obj/item/machinery_crate/excelsior/shield,
+/turf/floor/tiled/steel,
+/area/eris/crew_quarters/sleep/cryo)
 "liy" = (
 /obj/spawner/pack/machine,
 /turf/floor/tiled/white,
@@ -100660,26 +100685,6 @@
 	},
 /turf/floor/plating/under,
 /area/eris/medical/morgue)
-"lOj" = (
-/obj/item/implant/excelsior,
-/obj/item/implant/excelsior,
-/obj/item/implant/excelsior,
-/obj/item/implant/excelsior,
-/obj/item/implant/excelsior,
-/obj/item/implant/excelsior,
-/obj/item/implant/excelsior,
-/obj/item/implant/excelsior,
-/obj/item/implant/excelsior,
-/obj/item/implant/excelsior,
-/obj/item/implant/excelsior,
-/obj/item/implant/excelsior,
-/obj/item/implant/excelsior,
-/obj/item/implant/excelsior,
-/obj/item/implant/excelsior,
-/obj/item/implant/excelsior,
-/obj/item/implant/excelsior,
-/turf/floor/tiled/steel,
-/area/eris/crew_quarters/sleep/cryo)
 "lOA" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/floor/tiled/steel/cargo,
@@ -101253,10 +101258,6 @@
 /obj/machinery/atmospherics/valve,
 /turf/floor/tiled/steel/techfloor_grid,
 /area/eris/engineering/propulsion/right)
-"mUm" = (
-/obj/item/machinery_crate/excelsior/turret,
-/turf/floor/tiled/steel,
-/area/eris/crew_quarters/sleep/cryo)
 "mUH" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/floor/tiled/dark/gray_platform,
@@ -101565,10 +101566,6 @@
 /obj/spawner/toy/figure,
 /turf/floor/tiled/steel/gray_perforated,
 /area/eris/crew_quarters/fitness)
-"nCp" = (
-/obj/machinery/porta_turret/excelsior,
-/turf/floor/tiled/steel,
-/area/eris/crew_quarters/sleep/cryo)
 "nCx" = (
 /obj/structure/railing,
 /obj/structure/railing{
@@ -101645,6 +101642,10 @@
 	},
 /turf/floor/tiled/dark/techfloor,
 /area/eris/engineering/wastingroom)
+"nMj" = (
+/obj/item/storage/deferred/crate/excel_shock_kit,
+/turf/floor/tiled/steel,
+/area/eris/crew_quarters/sleep/cryo)
 "nMM" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -101675,6 +101676,15 @@
 	},
 /turf/floor/wood,
 /area/eris/crew_quarters/hydroponics/garden)
+"nNk" = (
+/obj/item/implanter/excelsior,
+/obj/item/implanter/excelsior,
+/obj/item/implanter/excelsior,
+/obj/item/implanter/excelsior,
+/obj/item/implanter/excelsior,
+/obj/item/implanter/excelsior,
+/turf/floor/tiled/steel,
+/area/eris/crew_quarters/sleep/cryo)
 "nNN" = (
 /obj/machinery/door/airlock{
 	name = "Changing Room"
@@ -101724,14 +101734,6 @@
 /obj/effect/floor_decal/industrial/warning/corner,
 /turf/floor/tiled/steel/monofloor,
 /area/eris/quartermaster/hangarsupply)
-"nTq" = (
-/obj/item/storage/deferred/crate/excel_heavy,
-/turf/floor/tiled/steel,
-/area/eris/crew_quarters/sleep/cryo)
-"nTD" = (
-/obj/item/storage/deferred/crate/excel_eva,
-/turf/floor/tiled/steel,
-/area/eris/crew_quarters/sleep/cryo)
 "nUt" = (
 /obj/item/reagent_containers/food/drinks/mug/new_nt,
 /obj/structure/table/woodentable,
@@ -101744,6 +101746,10 @@
 /obj/structure/catwalk,
 /turf/open,
 /area/eris/hallway/main/section3)
+"nWQ" = (
+/obj/machinery/complant_teleporter,
+/turf/floor/tiled/steel,
+/area/eris/crew_quarters/sleep/cryo)
 "nYI" = (
 /obj/structure/catwalk,
 /obj/structure/closet/wall_mounted/firecloset{
@@ -102001,10 +102007,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/floor/tiled/steel/techfloor_grid,
 /area/eris/command/exultant)
-"oxM" = (
-/obj/item/machinery_crate/excelsior/diesel_generator,
-/turf/floor/tiled/steel,
-/area/eris/crew_quarters/sleep/cryo)
 "oyb" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock{
@@ -102127,24 +102129,6 @@
 	},
 /turf/floor/tiled/white,
 /area/eris/crew_quarters/fitness)
-"oGp" = (
-/obj/item/implant/excelsior/leader,
-/obj/item/implant/excelsior/leader,
-/obj/item/implant/excelsior/leader,
-/obj/item/implant/excelsior/leader,
-/obj/item/implant/excelsior/leader,
-/obj/item/implant/excelsior/leader,
-/obj/item/implant/excelsior/leader,
-/obj/item/implant/excelsior/leader,
-/obj/item/implant/excelsior/leader,
-/obj/item/implant/excelsior/leader,
-/obj/item/implant/excelsior/leader,
-/obj/item/implant/excelsior/leader,
-/obj/item/implant/excelsior/leader,
-/obj/item/implant/excelsior/leader,
-/obj/item/implant/excelsior/leader,
-/turf/floor/tiled/steel,
-/area/eris/crew_quarters/sleep/cryo)
 "oHP" = (
 /obj/structure/catwalk,
 /turf/floor/plating/under,
@@ -102762,6 +102746,10 @@
 	},
 /turf/floor/reinforced/almost_airless,
 /area/eris/engineering/propulsion/left)
+"pOQ" = (
+/obj/item/storage/deferred/crate/excel_heavy,
+/turf/floor/tiled/steel,
+/area/eris/crew_quarters/sleep/cryo)
 "pRq" = (
 /obj/structure/bed/chair/wood{
 	dir = 1
@@ -103637,10 +103625,6 @@
 /obj/item/storage/pill_bottle/njoy,
 /turf/floor/carpet,
 /area/eris/medical/psych)
-"rGH" = (
-/obj/item/machinery_crate/excelsior/autolathe,
-/turf/floor/tiled/steel,
-/area/eris/crew_quarters/sleep/cryo)
 "rGT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -103866,6 +103850,10 @@
 /obj/item/stack/material/wood/random,
 /turf/floor/tiled/cafe,
 /area/eris/crew_quarters/kitchen)
+"rVw" = (
+/obj/machinery/shieldwallgen/excelsior,
+/turf/floor/tiled/steel,
+/area/eris/crew_quarters/sleep/cryo)
 "rVy" = (
 /obj/effect/decal/cleanable/graffiti/graffiti_moebius{
 	pixel_x = 30;
@@ -104115,6 +104103,10 @@
 /obj/machinery/door/firedoor,
 /turf/wall/low/with_glass/smart,
 /area/eris/neotheology/bioprinter)
+"sua" = (
+/obj/item/machinery_crate/excelsior/turret,
+/turf/floor/tiled/steel,
+/area/eris/crew_quarters/sleep/cryo)
 "sug" = (
 /obj/machinery/light,
 /turf/floor/tiled/dark/golden,
@@ -105102,6 +105094,10 @@
 	},
 /turf/floor/tiled/steel/bluecorner,
 /area/eris/security/lobby)
+"ubK" = (
+/obj/item/machinery_crate/excelsior/boombox,
+/turf/floor/tiled/steel,
+/area/eris/crew_quarters/sleep/cryo)
 "ucx" = (
 /obj/structure/table/standard,
 /obj/item/reagent_containers/dropper{
@@ -105417,10 +105413,6 @@
 	},
 /turf/floor/tiled/cafe,
 /area/eris/crew_quarters/kitchen)
-"uxI" = (
-/obj/machinery/excelsior_boombox,
-/turf/floor/tiled/steel,
-/area/eris/crew_quarters/sleep/cryo)
 "uxO" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -105847,6 +105839,10 @@
 	},
 /turf/floor/tiled/steel/techfloor_grid,
 /area/eris/crew_quarters/kitchen_storage)
+"vsl" = (
+/obj/machinery/excelsior_boombox,
+/turf/floor/tiled/steel,
+/area/eris/crew_quarters/sleep/cryo)
 "vtb" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -106210,10 +106206,6 @@
 	},
 /turf/floor/carpet/bcarpet,
 /area/eris/neotheology/office)
-"vYj" = (
-/obj/machinery/shieldwallgen/excelsior,
-/turf/floor/tiled/steel,
-/area/eris/crew_quarters/sleep/cryo)
 "vYG" = (
 /obj/structure/bed/chair{
 	dir = 4
@@ -106438,6 +106430,10 @@
 /obj/structure/table/rack/shelf,
 /turf/floor/tiled/steel/gray_platform,
 /area/eris/engineering/foyer)
+"wtk" = (
+/obj/machinery/excelsior_autodoc,
+/turf/floor/tiled/steel,
+/area/eris/crew_quarters/sleep/cryo)
 "wtT" = (
 /obj/item/device/techno_tribalism,
 /obj/machinery/door/blast/shutters/glass{
@@ -106891,6 +106887,10 @@
 	},
 /turf/floor/plating/under,
 /area/eris/maintenance/section1deck4central)
+"xui" = (
+/obj/item/storage/deferred/crate/excel_eva,
+/turf/floor/tiled/steel,
+/area/eris/crew_quarters/sleep/cryo)
 "xuA" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -107137,6 +107137,10 @@
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/floor/tiled/steel/techfloor_grid,
 /area/eris/medical/chemstor)
+"xQm" = (
+/obj/item/machinery_crate/excelsior/diesel_generator,
+/turf/floor/tiled/steel,
+/area/eris/crew_quarters/sleep/cryo)
 "xQW" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock{
@@ -107174,6 +107178,10 @@
 /obj/structure/closet/wardrobe/color/white,
 /turf/floor/tiled/dark/gray_platform,
 /area/eris/neotheology/altar)
+"xSR" = (
+/obj/item/storage/deferred/crate/excel_spetsnaz,
+/turf/floor/tiled/steel,
+/area/eris/crew_quarters/sleep/cryo)
 "xTo" = (
 /obj/item/reagent_containers/glass/bottle/mutagen,
 /obj/item/reagent_containers/dropper,
@@ -107188,10 +107196,6 @@
 /obj/structure/curtain/open/bed,
 /turf/floor/tiled/dark/golden,
 /area/eris/neotheology/funeral)
-"xTL" = (
-/obj/machinery/excelsior_autodoc,
-/turf/floor/tiled/steel,
-/area/eris/crew_quarters/sleep/cryo)
 "xTT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -168835,7 +168839,7 @@ bfA
 bmV
 bof
 bfA
-ePu
+nNk
 bNH
 bUn
 aaa
@@ -169035,9 +169039,9 @@ bTh
 bfA
 bfA
 blV
-oGp
-lOj
-hYN
+hHc
+hKy
+gAu
 dXZ
 bUn
 aaa
@@ -169234,11 +169238,11 @@ bON
 bej
 bfo
 bPR
-ixM
-nTD
-nTq
-jDz
-iIb
+khh
+xui
+pOQ
+nMj
+xSR
 bfB
 cJP
 bUn
@@ -169638,11 +169642,11 @@ bON
 bON
 bON
 bON
-iBP
-rGH
+kGK
 bOk
-oxM
-gJB
+ubK
+xQm
+lgY
 bON
 aaa
 aaa
@@ -169844,7 +169848,7 @@ bfA
 bfA
 bfA
 bfA
-mUm
+sua
 bON
 aaa
 aaa
@@ -170044,7 +170048,7 @@ aaa
 bON
 bNG
 bfA
-jaS
+kAs
 bfA
 bNG
 bON
@@ -170650,7 +170654,7 @@ aaa
 bON
 bNG
 bfA
-nCp
+fzh
 bfA
 bNG
 bON
@@ -171256,7 +171260,7 @@ aaa
 bON
 bNG
 bfA
-vYj
+rVw
 bfA
 bNG
 bON
@@ -171862,7 +171866,7 @@ aaa
 bON
 bNG
 bfA
-uxI
+vsl
 bfA
 bNG
 bON
@@ -172468,7 +172472,7 @@ aaa
 bON
 bNG
 bfA
-bfA
+nWQ
 bfA
 bNG
 bON
@@ -173074,7 +173078,7 @@ aaa
 bON
 bNG
 bfA
-bfA
+rVw
 bfA
 bNG
 bON
@@ -173680,7 +173684,7 @@ aaa
 bON
 bNG
 bfA
-bfA
+rVw
 bfA
 bNG
 bON
@@ -174286,7 +174290,7 @@ aaa
 bON
 bNG
 bfA
-xTL
+wtk
 bfA
 bNG
 bON
