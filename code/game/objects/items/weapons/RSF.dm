@@ -117,15 +117,10 @@ RSF
 	var/mode = 1
 	w_class = ITEM_SIZE_NORMAL
 
-/obj/item/rsf/afterattack(atom/A, mob/user as mob, proximity)
-
-	if(!proximity) return
-
-	if(!istype(A, /turf/floor))
-		return
+/obj/item/rsf/afterattack(atom/A, mob/user as mob)
 
 	if(istype(A, /obj/machinery/node))
-		to_chat(user, "Deleted node :(")
+		to_chat(user, "Deleted node womp womp")
 		playsound(src.loc, 'sound/machines/click.ogg', 10, 1)
 		qdel(A)
 		return
@@ -133,6 +128,6 @@ RSF
 
 	playsound(src.loc, 'sound/machines/click.ogg', 10, 1)
 
-	to_chat(user, "Spawned node")
-	new /obj/machinery/node.loc = get_turf(A)
+	to_chat(user, "Spawned node YEAAAAAH")
+	new /obj/machinery/node(get_turf(A))
 
