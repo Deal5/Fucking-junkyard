@@ -117,7 +117,7 @@ RSF
 	var/mode = 1
 	w_class = ITEM_SIZE_NORMAL
 
-/obj/item/rsf/afterattack(atom/A, mob/user as mob)
+/obj/item/nodeexceldebuggerlalala/afterattack(atom/A, mob/user as mob)
 
 	if(istype(A, /obj/machinery/node))
 		to_chat(user, "Deleted node womp womp")
