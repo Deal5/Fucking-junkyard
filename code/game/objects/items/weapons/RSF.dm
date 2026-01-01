@@ -101,3 +101,38 @@ RSF
 	else
 		stored_matter--
 		to_chat(user, "The RSF now holds [stored_matter]/30 fabrication-units.")
+
+
+
+/obj/item/nodeexceldebuggerlalala
+	name = "\improper Node spawner"
+	desc = "Fuck my femboy life mane..."
+	icon = 'icons/obj/tools.dmi'
+	icon_state = "rcd"
+	opacity = 0
+	density = FALSE
+	anchored = FALSE
+	var/max_stored_matter = 30
+	var/stored_matter = 30
+	var/mode = 1
+	w_class = ITEM_SIZE_NORMAL
+
+/obj/item/rsf/afterattack(atom/A, mob/user as mob, proximity)
+
+	if(!proximity) return
+
+	if(!istype(A, /turf/floor))
+		return
+
+	if(istype(A, /obj/machinery/node))
+		to_chat(user, "Deleted node :(")
+		playsound(src.loc, 'sound/machines/click.ogg', 10, 1)
+		qdel(A)
+		return
+
+
+	playsound(src.loc, 'sound/machines/click.ogg', 10, 1)
+
+	to_chat(user, "Spawned node")
+	new /obj/machinery/node.loc = get_turf(A)
+
