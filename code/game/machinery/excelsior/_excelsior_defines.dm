@@ -1,0 +1,1 @@
+#define EX_NODE_DISTANCE 15
